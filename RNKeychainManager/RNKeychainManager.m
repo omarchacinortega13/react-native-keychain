@@ -94,12 +94,6 @@ CFStringRef accessibleValue(NSDictionary *options)
     }
   }
 
-  printf("---- RETURNING HERE ----");
-  printf("---- RETURNING HERE ----");
-  printf("---- RETURNING HERE ----");
-  printf("---- RETURNING HERE ----");
-  printf("---- RETURNING HERE ----");
-  printf("---- RETURNING HERE ----");
   return kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly;
 }
 
