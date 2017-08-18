@@ -93,7 +93,14 @@ CFStringRef accessibleValue(NSDictionary *options)
       return (__bridge CFStringRef)result;
     }
   }
-  return kSecAttrAccessibleAfterFirstUnlock;
+
+  printf("---- RETURNING HERE ----");
+  printf("---- RETURNING HERE ----");
+  printf("---- RETURNING HERE ----");
+  printf("---- RETURNING HERE ----");
+  printf("---- RETURNING HERE ----");
+  printf("---- RETURNING HERE ----");
+  return kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly;
 }
 
 NSString *serviceValue(NSDictionary *options)
